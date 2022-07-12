@@ -1,0 +1,141 @@
+{
+  "kind": "collectionType",
+  "collectionName": "handhelds",
+  "info": {
+    "singularName": "handheld",
+    "pluralName": "handhelds",
+    "displayName": "Handheld",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "handheld": {
+      "type": "string"
+    },
+    "brand": {
+      "type": "string"
+    },
+    "released": {
+      "type": "string"
+    },
+    "formFactor": {
+      "type": "string"
+    },
+    "os": {
+      "type": "string"
+    },
+    "performanceRating": {
+      "type": "string"
+    },
+    "sOC": {
+      "type": "string"
+    },
+    "cpu": {
+      "type": "string"
+    },
+    "cpuCores": {
+      "type": "string"
+    },
+    "CpuClockSpeed": {
+      "type": "string"
+    },
+    "architecture": {
+      "type": "string"
+    },
+    "gpu": {
+      "type": "string"
+    },
+    "ram": {
+      "type": "string"
+    },
+    "screenSize": {
+      "type": "string"
+    },
+    "screenType": {
+      "type": "string"
+    },
+    "resolution": {
+      "type": "string"
+    },
+    "aspectRatio": {
+      "type": "string"
+    },
+    "screenLense": {
+      "type": "string"
+    },
+    "battery": {
+      "type": "string"
+    },
+    "swappableBattery": {
+      "type": "string"
+    },
+    "dPad": {
+      "type": "string"
+    },
+    "analongs": {
+      "type": "string"
+    },
+    "faceButtons": {
+      "type": "string"
+    },
+    "shoulderButtons": {
+      "type": "string"
+    },
+    "extraButtons": {
+      "type": "string"
+    },
+    "chargePort": {
+      "type": "string"
+    },
+    "storage": {
+      "type": "string"
+    },
+    "connectivity": {
+      "type": "string"
+    },
+    "videoOutput": {
+      "type": "string"
+    },
+    "audioOutput": {
+      "type": "string"
+    },
+    "speaker": {
+      "type": "string"
+    },
+    "rumble": {
+      "type": "string"
+    },
+    "lowBatteryIndicator": {
+      "type": "string"
+    },
+    "volumeControl": {
+      "type": "string"
+    },
+    "brightnessControl": {
+      "type": "string"
+    },
+    "powerControl": {
+      "type": "string"
+    },
+    "dimensions": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "colors": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}

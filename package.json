@@ -1,0 +1,33 @@
+{
+  "name": "handheld-gaming-specs-site-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-graphql": "4.1.10",
+    "@strapi/plugin-i18n": "4.1.10",
+    "@strapi/plugin-users-permissions": "4.1.10",
+    "@strapi/provider-upload-cloudinary": "^4.1.10",
+    "@strapi/strapi": "4.1.10",
+    "better-sqlite3": "7.4.6",
+    "strapi-plugin-import-export-content": "^0.4.2"
+  },
+  "author": {
+    "name": "Derek @Meridity"
+  },
+  "strapi": {
+    "uuid": "89ac2ab3-71ff-4483-9635-0e5450a1beba"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
